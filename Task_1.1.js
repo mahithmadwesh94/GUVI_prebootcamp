@@ -1,18 +1,5 @@
 //Declare four variables without assigning values and print them in console
-// Getting input via STDIN
-const readline = require("readline");
-const userInput = [];
-const inp = readline.createInterface({
-  input: process.stdin
-});
 
-inp.on("line", (data) => {
-  userInput.push(data);
-});
-
-
-inp.on("close", () => {
- 
  var myVar1;
  var myVar2;
  var myVar3;
@@ -25,4 +12,4 @@ inp.on("close", () => {
  console.log(myVar4);//Undefined
  
  
-});
+
