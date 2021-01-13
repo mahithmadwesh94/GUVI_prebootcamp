@@ -6,4 +6,4 @@ let foods = [
     'SPICY POTATO FRY','PANNER BUTTER MASAL','CURD RICE','PAPAD'
 ]
 
-console.log(foods.length);// logs 20
+
