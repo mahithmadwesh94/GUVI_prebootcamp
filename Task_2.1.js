@@ -1,7 +1,4 @@
 //Square of a number
-
-
-
 function returnSquare(num){
     return num*num;
 }
