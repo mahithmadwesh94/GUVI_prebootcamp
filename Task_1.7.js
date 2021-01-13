@@ -1,18 +1,5 @@
 //Write 6 statement which provide truthy & falsey values.
 
-// Getting input via STDIN
-const readline = require("readline");
-const userInput = [];
-const inp = readline.createInterface({
-  input: process.stdin
-});
-
-inp.on("line", (data) => {
-  userInput.push(data);
-});
-
-
-inp.on("close", () => {
 
 
 
@@ -55,7 +42,6 @@ trueOrFalse(NaN);
 trueOrFalse(0);
 
 
-});
 
 
 
